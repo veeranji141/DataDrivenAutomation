@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="org.automation.testcases.TC_02_ValidateRegistrationFunctionality">
+        <methods>
+          <include name="TC_02_ValidateRegistrationFunctionality"/>
+          <include name="closeDriverInstance"/>
+          <include name="initiateDriverInstance"/>
+        </methods>
+      </class> <!-- org.automation.testcases.TC_02_ValidateRegistrationFunctionality -->
+      <class name="org.automation.testcases.TC_01_ValidateLogInFunctionality">
+        <methods>
+          <include name="closeDriverInstance"/>
+          <include name="initiateDriverInstance"/>
+          <include name="TC_001_LoinFunctionality"/>
+        </methods>
+      </class> <!-- org.automation.testcases.TC_01_ValidateLogInFunctionality -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
